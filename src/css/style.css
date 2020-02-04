@@ -1,0 +1,39 @@
+body {
+  box-sizing: border-box;
+}
+
+.board-container {
+  display: flex;
+  width: 488px;
+  flex-wrap: wrap;
+  cursor: url(../img/cursor.png), crosshair;
+}
+
+.cell {
+  width: 120px;
+  height: 120px;
+  background-color: olive;
+  border: solid #fff 1px;
+}
+
+.goblin {
+  background-image: url(../img/goblin.png);
+}
+
+.scores {
+  display: flex;
+  width: 488px;
+  margin-top: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 36pt;
+  justify-content: space-between;
+}
+
+#hit-number {
+  color: green;
+}
+
+#missed-number {
+  color: red;
+}
